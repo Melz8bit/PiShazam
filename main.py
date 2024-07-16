@@ -3,6 +3,7 @@ import subprocess
 import webbrowser
 import threading
 
+from identify import id_song
 from record import record_audio
 
 
@@ -33,12 +34,13 @@ while True:
     record_audio()
 
     # Step 2: Identify the song
-    identification_result = subprocess.run(
-        ["python", "identify.py", audio_filename], capture_output=True, text=True
-    )
+    id_song()
+    # identification_result = subprocess.run(
+    #     ["python", "identify.py", audio_filename], capture_output=True, text=True
+    # )
 
     # prints a statement if correct song has been identified or error.
-    print(identification_result.stdout)
+    # print(identification_result.stdout)
 
     # Add a delay before the next iteration if needed
     time.sleep(15)  # The loop will wait for 15 seconds before the next recording

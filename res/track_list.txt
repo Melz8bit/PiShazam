@@ -1,1 +1,1 @@
-{"1": "Grace", "2": "Bruises", "3": "Hold Me While You Wait", "4": "Someone You Loved", "5": "Maybe", "6": "Forever", "7": "One", "8": "Don't Get Me Wrong", "9": "Hollywood", "10": "Lost On You", "11": "Fade", "12": "Headspace"}
+{"1": "Papercut", "2": "One Step Closer", "3": "With You", "4": "Points of Authority", "5": "Crawling", "6": "Runaway", "7": "By Myself", "8": "In the End", "9": "A Place for My Head", "10": "Forgotten", "11": "Cure for the Itch", "12": "Pushing Me Away", "13": "My December", "14": "High Voltage", "15": "Papercut - Live at BBC1"}

@@ -3,15 +3,20 @@ import subprocess
 import webbrowser
 import threading
 
+from record import record_audio
+
+
 # Function to start the HTTP server
 def start_server():
     # Start the HTTP server
-    subprocess.run(["python3", "-m", "http.server", "8000"])
+    subprocess.run(["python", "-m", "http.server", "8000"])
+
 
 # Function to open the web browser to the localhost
 def open_browser():
     time.sleep(1)  # Give the server a second to start
-    webbrowser.open_new('http://localhost:8000/')
+    webbrowser.open_new("http://localhost:8000/")
+
 
 # Static audio file name
 audio_filename = "test1.wav"
@@ -24,15 +29,16 @@ open_browser()
 
 while True:
     # Step 1: Record audio and save it as a file
-    subprocess.run(["python3", "record.py"])
-    
+    # subprocess.run(["python", "record.py"])
+    record_audio()
+
     # Step 2: Identify the song
     identification_result = subprocess.run(
-        ["python3", "identify.py", audio_filename],
-        capture_output=True,
-        text=True
+        ["python", "identify.py", audio_filename], capture_output=True, text=True
     )
-    print(identification_result.stdout)  # prints a statement if correct song has been identified or error.
-    
+
+    # prints a statement if correct song has been identified or error.
+    print(identification_result.stdout)
+
     # Add a delay before the next iteration if needed
     time.sleep(15)  # The loop will wait for 15 seconds before the next recording

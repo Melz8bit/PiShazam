@@ -1,7 +1,7 @@
 function fetchSongData() {
     var timestamp = new Date().getTime();
     var imageUrl = 'res/cover.jpg?' + timestamp;
-    var jsonUrl = 'res/song_info.json?' + timestamp; 
+    var jsonUrl = 'res/song_info.json?' + timestamp;
 
     // Use fetch API to load the JSON file
     fetch(jsonUrl)
@@ -16,7 +16,7 @@ function fetchSongData() {
             document.getElementById('song-title').textContent = data.title || 'Title not found';
             document.getElementById('song-artist').textContent = data.artist || 'Artist not found';
             document.getElementById('song-album').textContent = data.album || 'Album not found';
-            document.getElementById('song-lyrics').textContent = data.lyrics || 'Lyrics not found';
+            document.getElementById('album-tracks').textContent = data.track_list || 'Track list not found';
         })
         .catch(error => {
             console.error('Error fetching song data:', error);

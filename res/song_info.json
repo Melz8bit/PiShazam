@@ -1,10 +1,23 @@
 {
-    "title": "Let It Be (Remaster)",
-    "artist": "The Beatles",
-    "album": "Let It Be (Remastered)",
-    "spotify_album_id": "0jTGHV5xqHPvEcwL8f6YU5",
-    "spotify_artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-    "spotify_track_id": "7iN1s7xHE4ifF5povM6A48",
-    "isrc": "GBAYE0601713",
-    "lyrics": "When I find myself in times of trouble\nMother Mary comes to me\nSpeaking words of wisdom, let it be\n\nAnd in my hour of darkness\nShe is standing right in front of me\nSpeaking words of wisdom, let it be\n\nLet it be, let it be\nLet it be, let it be\nWhisper words of wisdom, let it be\n\nAnd when the broken-hearted people\nLiving in the world agree\nThere will be an answer, let it be\n\nFor though they may be parted\n...\n\n******* This Lyrics is NOT for Commercial use *******\n(1409624462156)"
+    "title": "Bruises",
+    "artist": "Lewis Capaldi",
+    "album": "Divinely Uninspired To A Hellish Extent",
+    "spotify_album_id": "https://open.spotify.com/album/5658aM19fA3JVwTK6eQX70",
+    "spotify_artist_id": "https://open.spotify.com/artist/4GNC7GD6oZMSxPGyXy4MNB",
+    "spotify_track_id": "https://open.spotify.com/track/4Of7rzpRpV1mWRbhp5rAqG",
+    "isrc": "GBKPL1778698",
+    "track_list": {
+        "1": "Grace",
+        "2": "Bruises",
+        "3": "Hold Me While You Wait",
+        "4": "Someone You Loved",
+        "5": "Maybe",
+        "6": "Forever",
+        "7": "One",
+        "8": "Don't Get Me Wrong",
+        "9": "Hollywood",
+        "10": "Lost On You",
+        "11": "Fade",
+        "12": "Headspace"
+    }
 }

@@ -20,22 +20,26 @@
 </head>
 
 <body>
-    <div class="container text-center">
-        <!-- <div class="text-center">
-            <img id="album-cover" src="" alt="Album Cover">
-            <h1 id="song-title">Song Title</h1>
-            <p id="song-artist">Artist</p>
-            <p id="song-album">Album</p>
-        </div> -->
-        <div class="card align-items-center" style="width: 20rem;">
-            <img id="album-cover" src="" alt="Album Cover" width="320">
-            <div class="card-body">
-                <h1 id="song-title" class="card-title">Song Title</h1>
-                <p id="song-artist">Artist</p>
-                <p id="song-album">Album</p>
-                <!-- <p id="album-tracks">Track List</p> -->
+    <div class="container d-flex justify-content-center">
+        <div class="row gx-1 w-75">
+            <div class="col">
+                <div class="card align-items-center" style="width: 20rem;">
+                    <img id="album-cover" src="" alt="Album Cover" width="320">
+                    <div class="card-body">
+                        <h1 id="song-title" class="card-title">Song Title</h1>
+                        <p id="song-artist">Artist</p>
+                        <p id="song-album">Album</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center">
+                <div>
+                    <h3>Track List</h3>
+                    <p id="album-tracks">Track List</p>
+                </div>
             </div>
         </div>
+
     </div>
     <script src="script.js"></script>
 </body>

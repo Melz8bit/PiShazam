@@ -15,7 +15,7 @@ def start_server():
 # Function to open the web browser to the localhost
 def open_browser():
     time.sleep(1)  # Give the server a second to start
-    webbrowser.open_new("http://localhost:8000/")
+    webbrowser.open_new(f"http://localhost:8000/")
 
 
 # Static audio file name
